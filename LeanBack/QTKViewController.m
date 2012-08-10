@@ -49,13 +49,13 @@
     [self addChildViewController:self.listViewController];
     [self.detailViewController willMoveToParentViewController:nil];
     
-    [UIView animateWithDuration:.5 animations:^{
+    [UIView animateWithDuration:.3 animations:^{
         CGRect detailFrame = self.view.bounds;
         detailFrame.origin.y = self.view.bounds.size.height;
         self.detailViewController.view.frame = detailFrame;                            
     }];
     
-    [UIView animateWithDuration:.5 delay:.25 options:UIViewAnimationCurveEaseInOut animations:^{
+    [UIView animateWithDuration:.5 delay:.1 options:UIViewAnimationCurveEaseInOut animations:^{
         CGRect frame = self.listViewController.view.frame;
         frame.size.width +=100;
         frame.size.height +=100;
@@ -89,7 +89,7 @@
         self.listViewController.view.frame = frame;        
     }];
     
-    [UIView animateWithDuration:.5 delay:.25 options:UIViewAnimationCurveEaseInOut animations:^{
+    [UIView animateWithDuration:.3 delay:.25 options:UIViewAnimationCurveEaseInOut animations:^{
         detailFrame.origin.y = 0;
         self.detailViewController.view.frame = detailFrame;                
     } completion:^(BOOL finished) {
