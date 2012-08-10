@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF94525715D55D7D00189973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF94525615D55D7D00189973 /* UIKit.framework */; };
+		FF94525915D55D7D00189973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF94525815D55D7D00189973 /* Foundation.framework */; };
+		FF94525B15D55D7D00189973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF94525A15D55D7D00189973 /* CoreGraphics.framework */; };
+		FF94526115D55D7D00189973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF94525F15D55D7D00189973 /* InfoPlist.strings */; };
+		FF94526315D55D7D00189973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94526215D55D7D00189973 /* main.m */; };
+		FF94526715D55D7D00189973 /* QTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94526615D55D7D00189973 /* QTKAppDelegate.m */; };
+		FF94526A15D55D7D00189973 /* QTKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94526915D55D7D00189973 /* QTKViewController.m */; };
+		FF94526D15D55D7D00189973 /* QTKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF94526B15D55D7D00189973 /* QTKViewController_iPhone.xib */; };
+		FF94527015D55D7D00189973 /* QTKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF94526E15D55D7D00189973 /* QTKViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF94525215D55D7D00189973 /* LeanBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94525615D55D7D00189973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF94525815D55D7D00189973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF94525A15D55D7D00189973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF94525E15D55D7D00189973 /* LeanBack-Info.plist */ = {isa = PBXFileReference; path = "LeanBack-Info.plist"; sourceTree = "<group>"; };
+		FF94526015D55D7D00189973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF94526215D55D7D00189973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF94526415D55D7D00189973 /* LeanBack-Prefix.pch */ = {isa = PBXFileReference; path = "LeanBack-Prefix.pch"; sourceTree = "<group>"; };
+		FF94526515D55D7D00189973 /* QTKAppDelegate.h */ = {isa = PBXFileReference; path = QTKAppDelegate.h; sourceTree = "<group>"; };
+		FF94526615D55D7D00189973 /* QTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKAppDelegate.m; sourceTree = "<group>"; };
+		FF94526815D55D7D00189973 /* QTKViewController.h */ = {isa = PBXFileReference; path = QTKViewController.h; sourceTree = "<group>"; };
+		FF94526915D55D7D00189973 /* QTKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKViewController.m; sourceTree = "<group>"; };
+		FF94526C15D55D7D00189973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController_iPhone.xib; sourceTree = "<group>"; };
+		FF94526F15D55D7D00189973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF94524F15D55D7D00189973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94525715D55D7D00189973 /* UIKit.framework in Frameworks */,
+				FF94525915D55D7D00189973 /* Foundation.framework in Frameworks */,
+				FF94525B15D55D7D00189973 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF94524715D55D7D00189973 = {
+			isa = PBXGroup;
+			children = (
+				FF94525C15D55D7D00189973 /* LeanBack */,
+				FF94525515D55D7D00189973 /* Frameworks */,
+				FF94525315D55D7D00189973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF94525315D55D7D00189973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF94525215D55D7D00189973 /* LeanBack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF94525515D55D7D00189973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF94525615D55D7D00189973 /* UIKit.framework */,
+				FF94525815D55D7D00189973 /* Foundation.framework */,
+				FF94525A15D55D7D00189973 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF94525C15D55D7D00189973 /* LeanBack */ = {
+			isa = PBXGroup;
+			children = (
+				FF94526515D55D7D00189973 /* QTKAppDelegate.h */,
+				FF94526615D55D7D00189973 /* QTKAppDelegate.m */,
+				FF94526815D55D7D00189973 /* QTKViewController.h */,
+				FF94526915D55D7D00189973 /* QTKViewController.m */,
+				FF94526B15D55D7D00189973 /* QTKViewController_iPhone.xib */,
+				FF94526E15D55D7D00189973 /* QTKViewController_iPad.xib */,
+				FF94525D15D55D7D00189973 /* Supporting Files */,
+			);
+			path = LeanBack;
+			sourceTree = "<group>";
+		};
+		FF94525D15D55D7D00189973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF94525E15D55D7D00189973 /* LeanBack-Info.plist */,
+				FF94525F15D55D7D00189973 /* InfoPlist.strings */,
+				FF94526215D55D7D00189973 /* main.m */,
+				FF94526415D55D7D00189973 /* LeanBack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF94525115D55D7D00189973 /* LeanBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF94527315D55D7D00189973 /* Build configuration list for PBXNativeTarget "LeanBack" */;
+			buildPhases = (
+				FF94524E15D55D7D00189973 /* Sources */,
+				FF94524F15D55D7D00189973 /* Frameworks */,
+				FF94525015D55D7D00189973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanBack;
+			productName = LeanBack;
+			productReference = FF94525215D55D7D00189973 /* LeanBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF94524915D55D7D00189973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QTK;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FF94524C15D55D7D00189973 /* Build configuration list for PBXProject "LeanBack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF94524715D55D7D00189973;
+			productRefGroup = FF94525315D55D7D00189973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF94525115D55D7D00189973 /* LeanBack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF94525015D55D7D00189973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94526115D55D7D00189973 /* InfoPlist.strings in Resources */,
+				FF94526D15D55D7D00189973 /* QTKViewController_iPhone.xib in Resources */,
+				FF94527015D55D7D00189973 /* QTKViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF94524E15D55D7D00189973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94526315D55D7D00189973 /* main.m in Sources */,
+				FF94526715D55D7D00189973 /* QTKAppDelegate.m in Sources */,
+				FF94526A15D55D7D00189973 /* QTKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF94525F15D55D7D00189973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF94526015D55D7D00189973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF94526B15D55D7D00189973 /* QTKViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF94526C15D55D7D00189973 /* en */,
+			);
+			name = QTKViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FF94526E15D55D7D00189973 /* QTKViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF94526F15D55D7D00189973 /* en */,
+			);
+			name = QTKViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF94527115D55D7D00189973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF94527215D55D7D00189973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF94527415D55D7D00189973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanBack/LeanBack-Prefix.pch";
+				INFOPLIST_FILE = "LeanBack/LeanBack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF94527515D55D7D00189973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanBack/LeanBack-Prefix.pch";
+				INFOPLIST_FILE = "LeanBack/LeanBack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF94524C15D55D7D00189973 /* Build configuration list for PBXProject "LeanBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94527115D55D7D00189973 /* Debug */,
+				FF94527215D55D7D00189973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF94527315D55D7D00189973 /* Build configuration list for PBXNativeTarget "LeanBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94527415D55D7D00189973 /* Debug */,
+				FF94527515D55D7D00189973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF94524915D55D7D00189973 /* Project object */;
+}
