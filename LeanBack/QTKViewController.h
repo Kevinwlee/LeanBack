@@ -10,4 +10,9 @@
 
 @interface QTKViewController : UIViewController
 
+- (void)dismissChildViewController:(UIViewController *)child;
+- (void)presentChildViewController;
+
+
+
 @end

@@ -14,8 +14,11 @@
 		FF94526315D55D7D00189973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94526215D55D7D00189973 /* main.m */; };
 		FF94526715D55D7D00189973 /* QTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94526615D55D7D00189973 /* QTKAppDelegate.m */; };
 		FF94526A15D55D7D00189973 /* QTKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94526915D55D7D00189973 /* QTKViewController.m */; };
-		FF94526D15D55D7D00189973 /* QTKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF94526B15D55D7D00189973 /* QTKViewController_iPhone.xib */; };
-		FF94527015D55D7D00189973 /* QTKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF94526E15D55D7D00189973 /* QTKViewController_iPad.xib */; };
+		FF94527015D55D7D00189973 /* QTKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF94526E15D55D7D00189973 /* QTKViewController.xib */; };
+		FF94527C15D55E7100189973 /* QTKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94527A15D55E7100189973 /* QTKDetailViewController.m */; };
+		FF94527D15D55E7100189973 /* QTKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF94527B15D55E7100189973 /* QTKDetailViewController.xib */; };
+		FF94528115D5657000189973 /* QTKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94527F15D5657000189973 /* QTKListViewController.m */; };
+		FF94528215D5657000189973 /* QTKListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF94528015D5657000189973 /* QTKListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,21 @@
 		FF94525615D55D7D00189973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF94525815D55D7D00189973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF94525A15D55D7D00189973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FF94525E15D55D7D00189973 /* LeanBack-Info.plist */ = {isa = PBXFileReference; path = "LeanBack-Info.plist"; sourceTree = "<group>"; };
+		FF94525E15D55D7D00189973 /* LeanBack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeanBack-Info.plist"; sourceTree = "<group>"; };
 		FF94526015D55D7D00189973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF94526215D55D7D00189973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF94526415D55D7D00189973 /* LeanBack-Prefix.pch */ = {isa = PBXFileReference; path = "LeanBack-Prefix.pch"; sourceTree = "<group>"; };
-		FF94526515D55D7D00189973 /* QTKAppDelegate.h */ = {isa = PBXFileReference; path = QTKAppDelegate.h; sourceTree = "<group>"; };
+		FF94526415D55D7D00189973 /* LeanBack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeanBack-Prefix.pch"; sourceTree = "<group>"; };
+		FF94526515D55D7D00189973 /* QTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTKAppDelegate.h; sourceTree = "<group>"; };
 		FF94526615D55D7D00189973 /* QTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKAppDelegate.m; sourceTree = "<group>"; };
-		FF94526815D55D7D00189973 /* QTKViewController.h */ = {isa = PBXFileReference; path = QTKViewController.h; sourceTree = "<group>"; };
+		FF94526815D55D7D00189973 /* QTKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTKViewController.h; sourceTree = "<group>"; };
 		FF94526915D55D7D00189973 /* QTKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKViewController.m; sourceTree = "<group>"; };
-		FF94526C15D55D7D00189973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController_iPhone.xib; sourceTree = "<group>"; };
-		FF94526F15D55D7D00189973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController_iPad.xib; sourceTree = "<group>"; };
+		FF94526F15D55D7D00189973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController.xib; sourceTree = "<group>"; };
+		FF94527915D55E7100189973 /* QTKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKDetailViewController.h; sourceTree = "<group>"; };
+		FF94527A15D55E7100189973 /* QTKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKDetailViewController.m; sourceTree = "<group>"; };
+		FF94527B15D55E7100189973 /* QTKDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTKDetailViewController.xib; sourceTree = "<group>"; };
+		FF94527E15D5657000189973 /* QTKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKListViewController.h; sourceTree = "<group>"; };
+		FF94527F15D5657000189973 /* QTKListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKListViewController.m; sourceTree = "<group>"; };
+		FF94528015D5657000189973 /* QTKListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTKListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +91,13 @@
 				FF94526615D55D7D00189973 /* QTKAppDelegate.m */,
 				FF94526815D55D7D00189973 /* QTKViewController.h */,
 				FF94526915D55D7D00189973 /* QTKViewController.m */,
-				FF94526B15D55D7D00189973 /* QTKViewController_iPhone.xib */,
-				FF94526E15D55D7D00189973 /* QTKViewController_iPad.xib */,
+				FF94526E15D55D7D00189973 /* QTKViewController.xib */,
+				FF94527915D55E7100189973 /* QTKDetailViewController.h */,
+				FF94527A15D55E7100189973 /* QTKDetailViewController.m */,
+				FF94527B15D55E7100189973 /* QTKDetailViewController.xib */,
+				FF94527E15D5657000189973 /* QTKListViewController.h */,
+				FF94527F15D5657000189973 /* QTKListViewController.m */,
+				FF94528015D5657000189973 /* QTKListViewController.xib */,
 				FF94525D15D55D7D00189973 /* Supporting Files */,
 			);
 			path = LeanBack;
@@ -153,8 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF94526115D55D7D00189973 /* InfoPlist.strings in Resources */,
-				FF94526D15D55D7D00189973 /* QTKViewController_iPhone.xib in Resources */,
-				FF94527015D55D7D00189973 /* QTKViewController_iPad.xib in Resources */,
+				FF94527015D55D7D00189973 /* QTKViewController.xib in Resources */,
+				FF94527D15D55E7100189973 /* QTKDetailViewController.xib in Resources */,
+				FF94528215D5657000189973 /* QTKListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +182,8 @@
 				FF94526315D55D7D00189973 /* main.m in Sources */,
 				FF94526715D55D7D00189973 /* QTKAppDelegate.m in Sources */,
 				FF94526A15D55D7D00189973 /* QTKViewController.m in Sources */,
+				FF94527C15D55E7100189973 /* QTKDetailViewController.m in Sources */,
+				FF94528115D5657000189973 /* QTKListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,20 +198,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FF94526B15D55D7D00189973 /* QTKViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF94526C15D55D7D00189973 /* en */,
-			);
-			name = QTKViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		FF94526E15D55D7D00189973 /* QTKViewController_iPad.xib */ = {
+		FF94526E15D55D7D00189973 /* QTKViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FF94526F15D55D7D00189973 /* en */,
 			);
-			name = QTKViewController_iPad.xib;
+			name = QTKViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -255,6 +263,7 @@
 				GCC_PREFIX_HEADER = "LeanBack/LeanBack-Prefix.pch";
 				INFOPLIST_FILE = "LeanBack/LeanBack-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,6 +275,7 @@
 				GCC_PREFIX_HEADER = "LeanBack/LeanBack-Prefix.pch";
 				INFOPLIST_FILE = "LeanBack/LeanBack-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
